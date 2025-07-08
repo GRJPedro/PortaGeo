@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="utf-8">
+    <meta name="author" content="José Pedro Gómez Rodríguez">
+    <meta name="description" content="CV de Pedro Gómez">
+    <meta name="keywords" content="SIG, GIS, Analisis Espacial, Vectorial, Raster">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Análisis Geográfico</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/globe-americas.svg">
+    <!--Bootstrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Rubik+Dirt&family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/4.4.1/chart.min.js"></script>
+    <!--chart.js-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.4/Chart.js"></script>
+    <!--Bootstrap para modal-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <!--Bootstrap para modal-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </head>
+  <body>
+
+    <div class="container">
+        <div class="row">
+        <nav class="navbar navbar-expand-md navbar-light">
+          <div class="container">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbar-toggler">
+              <a class="navbar-brand" href="#">
+                <img src="imagenes/briefcase-fill.svg" width="35" alt="Logo de la página web">
+              </a>
+              <ul class="navbar-nav d-flex justify-content-center align-items-center">
+                <li class="nav-item">
+                  <a class="nav-link active" style="color:rgb(96,118,53)" aria-current="page" href="#bdpedro">Análisis Geográfico</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#productos">Productos</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contacto">Contacto</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+        </div>
+
+        <!--encabezado con imagen y titulo -->
+        
+        <section id="bdpedro" class="container-fuid">
+          <div class="row head" style="text-align: center;">
+             <div class="head-texto col-9 col-mg-9">
+               <h1>Análisis Geográfico</h1>
+               <p>Un geógrafo es un profesional que estudia la relación entre la sociedad y el entorno físico,<br>
+                 analizando la distribución y organización espacial de los fenómenos naturales y humanos.<br>
+                  Para ello combina conocimientos de geografía, cartografía y tecnologías de información <br>
+                  para analizar y gestionar datos geográficos.
+               </p>
+             </div>
+          </div>
+        </section>
+
+        <!--parte donde estan los iconos con los puntos que hago-->
+
+        <section id="productos" class="container-fuid">
+          <div class="row botones d-flex justify-content-evenly">
+            <div class="boton col-12 col-md-2">
+              <a href="#analisis">
+              <i class="bi bi-clipboard-data"></i>
+              <p class="botones-titulo">Investigación y Análisis</p>
+            </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#cartografia">
+                <i class="bi bi-map"></i>
+              <p class="botones-titulo">Cartografía y Tecnología</p>
+              </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#desarrollo">
+                <i class="bi bi-list-columns-reverse"></i>
+              <p class="botones-titulo">Desarrollo de Sistemas Geográficos</p>
+              </a>
+            </div>
+            <div class="boton col-12 col-md-2">
+              <a href="#plan">
+                <i class="bi bi-image-alt"></i>
+              <p class="botones-titulo">Planificación y Gestión</p>
+              </a>
+            </div>   
+            <div class="boton col-12 col-md-2">
+              <a href="#consultor">
+                <i class="bi bi-diagram-3"></i>
+              <p class="botones-titulo">Consultoría y Asesoramiento</p>
+              </a>
+            </div> 
+            <div class="boton col-12 col-md-2">
+              <a href="#educacion">
+                <i class="bi bi-person-video3"></i>
+              <p class="botones-titulo">Educación y Divulgación</p>
+              </a>
+            </div> 
+          </div>
+        </section>
+
+        <!--Sección Análisis-->
+        <section id="analisis" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-analisis">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Investigación y Análisis</h1>
+              <p>Estas son las principales acciones que realizo:
+              </p>
+              <ul>
+                <li>Estudio la distribución y patrones espaciales de fenómenos naturales 
+                  (clima, geología, hidrología) y humanos (población, economía, cultura)</li>
+                <li>Análisis de datos geográficos utilizando técnicas estadísticas y herramientas 
+                  de SIG (Sistemas de Información Geográfica)</li>
+                <li>Investigación de campo para recopilar datos, homologación y limpieza</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#myModal">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="myModal">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Investigación y Análisis</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Análisis Geográfico</h4>
+                      <p>El análisis geográfico es una técnica utilizada para examinar y comprender las relaciones entre
+                        fenómenos geográficos, sociales, económicos, políticos y ambientales en un espacio y tiempo determinado</p>
+                      <p>Para ello se utilizan teorías y métodos de ciencias complementarias y ramas de la geografía, enfocandose en: </p>
+                      <ul>
+                        <li>Localización: Identificar la ubicación de fenómenos y características geográficas
+                        </li>
+                        <li>Distribución: Estudiar la dispersión y patrones de los fenómenos en el espacio
+                        </li>
+                        <li>Relación: Analizar las conexiones entre variables geográficas y no geográficas
+                        </li>
+                        <li>Causalidad: Investigar las causas y efectos de los feómenos geográficos
+                        </li>
+                      </ul>
+                      <img src="imagenes/Modgeo1_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Análisis de Datos Geográficos</h4>
+                      <p>Análisis de datos geográficos utilizando técnicas estadísticas y herramientas de análisis de datos tanto espaciales 
+                        como no espaciales
+                      </p>
+                      <p>Los datos geográficos son aquellos que cuentan con información sobre su presencia en la superficie terrestre y 
+                        se presentan en estos tipos:
+                      </p>
+                      <ul>
+                        <li>Datos de localización: Coordenadas (geográficas, utm, etc.), direcciones, etc.
+                        </li>
+                        <li>Datos de atributos: Características de lugares, como clima, población, economía, infraestructura
+                        </li>
+                        <li>Datos de relación: Conexiones entre lugares, como distancia, límites, redes de transporte
+                        </li>
+                        <li>Datos temporales: Información que cambia con el tiempo, ya sea por epocas del año, estaciones, crecimiento demográfico
+                        </li>
+                        <li>Datos espaciales: Información sobre la representación de elementos en formas geometricas y patrones
+                          como puntos, líneas y polígonos
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modgeo1_2.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Trabajo de Campo</h4>
+                      <p>El trabajo de campo consiste en relaizar una serie de visitas al lugar de estudio 
+                         para recopilar información y en gabinete complementar con la información recabada de bases de datos, fuentes de datos. 
+                        Para ello se utilizan herramientas como:
+                      </p>
+                      <ul>
+                        <li>Equipos GPS (GLONASS, Galileo) ya sean navegadores, topográficos, estaciones totales.
+                        </li>
+                        <li>Fotografías las cuales evidencian aspectos físicos y sociales de la zona de estudio (muchas de ellas ya cuentan con ubicación)
+                        </li>
+                        <li>Muestreos con los cuales se realizan entrevistas y encuestas que levantan información de un área determinada 
+                          a un cierto número de personas, ubicaciones, etc. muchos de estos ya son incorporados a aplicaciones tanto android como 
+                          a softwares de navegación gps
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modgeo1_3.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion Cartografia-->
+        <section id="cartografia"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Cartografía y Tecnología</h1>
+              <p>Estas son las principales acciones que realizo:
+              </p>
+              <ul>
+                <li>Diseño y creación de mapas temáticos y cartografía digital</li>
+                <li>Utilización de tecnologías de información geográfica (SIG, GPS, etc.) </li>
+                <li>Creación de modelos 3D y simulaciones geográficas</li>
+                <li>Uso de Servidores y Bases de Datos Geoespaciales</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bdr">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="bdr">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Cartografía y Tecnología</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Diseño y creación de mapas temáticos y cartografía digital</h4>
+                      <p>Se levantan requerimeitos de las variables que se quieren graficar en un mapa, ya sea una carta topográfica, 
+                        un mapa temático, un croquis ó un mapa simple para exposición en presentaciones
+                      </p>
+                      <p>
+                        se determina el tamaño del mapa impreso y digital, los elementos que se desean representar, 
+                        así como el público o lugar donde será expuesto (cuestiones de diseño gubernamental, institucional, etc.)
+                      </p>
+                      <p>Para mapas digitales se levanta la información que se requiere presentar así como las diferentes escalas de los 
+                        dispositivos donde quiere ser representado, las plataformas y los servidores de visualización de mapas, así como 
+                        la información que se requiere representar tanto en la simbología, como el tooltip
+                      </p>
+                      <img src="imagenes/Modgeo2_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Tecnología Geográfica</h4>
+                      <p>Uso de Sistemas de Información Geográfica (SIG), CAD y GPS
+                      </p>
+                      <ul>
+                        <li>Utilizo SIG como herramienta de análisis, recopilación, procesasmiento de información y representación
+                          tanto de licencia como gratuitos como: ArcGIS, QGIS, Mapinfo, Google Earth, Mapa Digital
+                        </li>
+                        <li>Tambien utilizo CAD como Autocad para tratamiento de información
+                        </li>
+                        <li>Utilizo navegadores gps con modo recolector de datos y enlazamiento a diferentes sistemas de posicionamiento
+                        </li>
+                      </ul> 
+                     <img src="imagenes/Modgeo2_2.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Creaciones de modelos 3D y simulaciones geográficas </h4>
+                      <ul>
+                        <li>Uso de tecnología, radar, lidar y TIN para representación de formas en 3D, realizando análisis 
+                          de riesgos, de escorrentias, barreras físicas
+                        </li>
+                        <li>Se realizan simulaciones de inundaciones, así como la cantidad de energia solar en un área especifica para análisis 
+                          agrícolas
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modgeo2_3.png">
+                    </div> 
+
+                    <div class="nodal-seccion">
+                      <h4>Servidores y Bases de Datos Geoespacial</h4>
+                      <p>Los servidores y bases de datos geoespaciales son tecnologías que almacenan, gestionan y 
+                        proporcionan acceso a datos geográficos, permitiendo su análisis y visualización
+                      </p>
+                      <ul>
+                        <li>Geoserver
+                        </li>
+                        <li>PostgreSQL (PostGIS)
+                        </li>
+                        <li>MongoDB
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modgeo2_4.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-carto">
+            </div>
+          </div>
+        </section>
+
+        <!--Sección Desarrollo en Geo-->
+        <section id="desarrollo" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-desarrollo">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Desarrollo de Sistemas Geográficos</h1>
+              <p>Para desarrollo en sistemas geográficos utilizi mi conocimiento en programación, bases de datos, 
+                análisis espacial y visualización, estas son las principales actividades que realizo:
+              </p>
+              <ul>
+                <li>Desarrollo de herramientas de análisis, visualización, aplicaciones web y móviles</li>
+                <li>Integración de SIG con otras tecnologías (GPS, Percepción Remota)</li>
+                <li>Diseño e implementación de bases de datos geoespaciales  </li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#bdg">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="bdg">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Desarrollo de Programas Geográficos</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Áreas de desarrollo</h4>
+                      <ul>
+                        <li>Programación de metodos y herramientas SIG con ArcMap y QGIS
+                        </li>
+                        <li>Análisis espacial y modelado
+                        </li>
+                        <li>Visualización y mapeo
+                        </li>
+                        <li>Bases de datos geoespaciales
+                        </li>
+                        <li>Desarrollo web y móvil para aplicaciones geográficas
+                        </li>
+                        <li>Integración con equipos GPS diseñando aplicaciones de levantamiento de información
+                        </li>
+                      </ul>
+                      <img src="imagenes/Modgeo3_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Tecnologías y herramientas</h4>
+                      <ul>
+                        <li>Uso lenguajes de programación como Python, Java y JavaScript
+                        </li>
+                        <li>Uso librerias y frameworks como matplot, pandas, pyqgis, arcpy, Leaflet
+                        </li>
+                        <li>Uso bases de datos relacionales como PostgreSQL (PostGIS) y no relacionales como MongoDB
+                        </li>
+                        <li>Uso servidores como GeoServer y MapServer
+                        </li>
+                      </ul>
+                     <img src="imagenes/Modgeo3_2.png">
+                    </div> 
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion planificación-->
+        <section id="plan"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Planificación y Gestión</h1>
+              <p>Estos son las proncipales actividades que realizo:
+              </p>
+              <ul>
+                <li>Desarrollo de planes y políticas para el uso del suelo, recursos naturales y desarrollo urbano</li>
+                <li>Evaluación de impacto ambiental y social de proyectos de infraestructura y desarrollo</li>
+                <li>Gestión de recursos naturales (agua, bosques, suelo) y conservación de la biodiversidad</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#SGBD">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="SGBD">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Planificación y Gestión Geográfica</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Desarrollo de Planes y Políticas</h4>
+                      <ul>
+                        <li style="list-style-type: none;">En el desarrollo de planes y políticas para el uso de suelo, recursos
+                          naturales y desarrollo urbano, uso los SIG para una gestión sostenible y eficiente, para ello utilizo y digitalizo
+                          información sobre:
+                          <ul>
+                            <li>Planes de uso de suelo</li>
+                            <li>Planes de desarrollo urbano</li>
+                            <li>Políticas de transporte y movilidad</li>
+                            <li>Regulaciones de construcción y zonificación</li>
+                            <li>Análisis de Impacto Ambiental</li>
+                          </ul>
+                        </li>
+                        <li style="list-style-type: none;">aplicando 
+                          <ul>
+                            <li>Un análisis espacial y temporal</li>
+                            <li>Definición de objetivos y metas</li>
+                            <li>Identificación de actores y partes interesadas</li>
+                            <li>Elaboración de opciones y escenarios</li>
+                            <li>Modelos digitales de elevación</li>
+                            <li>Análisis de cambios en la cobertura del suelo</li>
+                            <li>Simulación de crecimiento urbano</li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <img src="imagenes/Modgeo4_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Evaluación de Impacto Ambiental y Social</h4>
+                      <ul>
+                        <li style="list-style-type: none;">En mi trayectoria profesional he colaborado en la elaboración de:
+                          <ul>
+                            <li>Manifiestos de Impacto Ambiental</li>
+                            <li>Documento Técnico Unificado</li>
+                          </ul>
+                        </li>
+
+                        <li style="list-style-type: none;">en los cuales se aplicaron: 
+                          <ul>
+                            <li>Análisis espaciales de las obras de impacto</li>
+                            <li>Cuantificación de área afectada de suelo</li>
+                            <li>Diseños de muestreo para levantar información de suelo y fauna</li>
+                          </ul>
+                        </li>
+                
+                      </ul>
+                      <img src="imagenes/Modgeo4_2.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-plan">
+            </div>
+          </div>
+        </section>
+
+
+
+
+        <!--Sección Consultor Geográfico-->
+        <section id="consultor" class="container-fuid">
+          <div class="row prod-izq" >
+            <div class="col-sm-12 col-md-4 col-lg-4 img-consultor">
+            </div>
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Consultoría y Asesoramiento</h1>
+              <p>Estas son las principales actividades que realizo:
+              </p>
+              <ul>
+                <li>Asesoramiento a empresas y organizaciones sobre ubicación, riesgos y oportunidades geográficas</li>
+                <li>Asesoramiento y evaluación de necesidades a organizaciones sobre requisitos e implementación de SIG</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#consul">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+            <!-- Modal Analisis -->
+            <div class="modal" id="consul">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Consultoría y Asesoramiento</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal Cuerpo -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Asesoramiento sobre ubicación, riesgos y oportunidades geográficas</h4>
+                      <p>El asesoramiento a empresas y organizaciones sobre ubicación, riesgos y oportunidades geográficas
+                        es un servicio especializado que combina análisis geográfico, inteligencia de negocios y estrategia para apoyar decisiones informadas
+                      </p>
+                      <p>Ofreciendo servicios de:</p>
+                      <ul>
+                        <li>Ubicación estratégica: Evaluación de sitios para instalaciones, almacenes u oficinas
+                        </li>
+                        <li>Evaluación de Riesgos Geográficos: Análisis de amenazas naturales, conflictos sociales o cambio climático
+                        </li>
+                        <li>Oportunidades de mercado: Identificación de mercados emergentes, tendencias demograficas
+                        </li>
+                        <li>Planificación de expansión: Estrategias para entrar a nuevos mercados, análisis de la competencia, establecimiento de precios
+                        </li>
+                        <li>Desarollo de estrategias de localización</li>
+                      </ul>
+                      <img src="imagenes/Modgeo5_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Asesoramiento sobre implementación de tecnologías geográficas</h4>
+                      <p>Mis servicios sobre asesoramiento en SIG a empresas y organizaciones se caracterizan por:</p>
+                      <ul>
+                        <li>Identificar necesidades y requisitos de SIG
+                        </li>
+                        <li>Evaluar la madurez en los SIG, esto revisando sus herramientas y tecnologías, proponiendo 
+                          un paquete a la medida, alcance y presupuesto
+                        </li>
+                        <li>Definir una estrategia de implementación de SIG
+                        </li>
+                        <li>Desarrollar un plan de capacitación y soporte</li>
+                      </ul>
+                     
+                    </div>  
+
+                  
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <!--Seccion Maestro-->
+        <section id="educacion"class="container-fuid"></section>
+          <div class="row prod-der">
+            <div class="col-sm-12 col-md-8 col-lg-8 desc-prod">
+              <h1>Educación y Divulgación</h1>
+              <p>Estos son los principales actividades que realizo:
+              </p>
+              <ul>
+                <li>Enseñanza de geografía en instituciones educativas</li>
+                <li>Creación de materiales educativos y recursos didácticos </li>
+                <li>Divulgación de la geografía a través de medios de comunicación y eventos públicos</li>
+              </ul>
+              
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#Edugeo">
+                Ver más  <i class="bi bi-plus"></i>
+              </button>
+            </div>
+
+            <!--Modal BDrelacioanl-->
+            <div class="modal" id="Edugeo">
+              <div class="modal-dialog modal-lg">
+                <div class="modal-content">
+
+                  <!-- Modal Titulo -->
+                  <div class="modal-header">
+                    <h4 class="modal-title">Educación y Divulgación de la Geografía</h4>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                  </div>
+
+                  <!-- Modal body -->
+                  <div class="modal-body nodal">
+                    <div class="nodal-seccion">
+                      <h4>Enseñanza de la Geografía en Instituciones Educativas y Publicas</h4>
+                      <p>Mis servicios de enseñanza se enfocan en el uso de Sistemas de información Geográfica caracterizados en:</p>
+                      <ul>
+                        <li>Cursos Básicos y Avanzados del Uso de SIG, tanto de licencia (ArcMap), como de uso libre (QGIS)
+                        </li>
+                        <li>Asesorias en proyectos que requieren análisis con Sistemas de Información Geográfica
+                        </li>
+                      </ul>
+                      <img src="imagenes/Modgeo6_1.png">
+                    </div>
+
+                    <div class="nodal-seccion">
+                      <h4>Creación de Materiales Educativos y Recursos Didácticos</h4>
+                      <ul>
+                        <li>Se elaboran mapas temáticos diseñados para presentaciones adecuandose al diseño del cliente
+                        </li>
+                        <li>Se elaboran mapas a diferentes escalas de impresión
+                        </li>
+                        <li>Se elaboran páginas web, presentaciones (PowerPoint, Prezi, etc), y videos, con cartografía, gráficas e infografías
+                        </li>
+                      </ul>
+                      <img src="imagenes/Modgeo6_2.png">
+                    </div>
+                  </div>
+
+                  <!-- Modal footer -->
+                  <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">cerrar</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-12 col-md-4 col-lg-4 img-mtro">
+            </div>
+          </div>
+        </section>
+
+       <!--sección footer-->
+
+        <section id="contacto" class="container-fuid">
+          <div class= "row footer d-flex flex-column align-items-center justify-content-center">
+            <p class="footer-texto text-center">Aprendo y creo todos los días.<br>Creemos un proyecto juntos.</p>
+            <div class="iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+              <a href="https://x.com/pedrogo62967054?s=11" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-twitter"></i>
+              </a>
+              <a href="https://github.com/GRJPedro" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-github"></i>
+              </a>
+              <a href="https://www.linkedin.com/in/josé-pedro-gómez-rodríguez-61851566" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-linkedin"></i>
+              </a>
+              <a href="https://www.instagram.com/pedrogomez_geo/" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-instagram"></i>
+              </a>
+              <a href="mailto:pedrogomez.geo@gmail.com" target="_blank" rel="noopener noreferrer">
+                <i class="bi bi-envelope"></i>
+              </a>
+            </div>
+            <div class="derechos-de-autor">Creado Pedro Gómez (2025) &#169;</div>
+          </div>
+        </section>
+  </body>
+</html>

@@ -1,0 +1,336 @@
+/*navbar*/
+.navbar {
+  padding: 1rem;
+  background-color: rgb(245, 245, 245);
+}
+
+.navbar-collapse {
+  align-items: center;
+  justify-content: space-between;  
+}
+
+.navbar-collapse img{
+  padding-left: 10px;
+}
+
+.navbar a{
+  color:rgb(51, 51, 51);
+}
+
+/*encabezado*/
+.head {
+    background: url("imagenes/head_geo.png");
+    background-size: cover;
+    position: relative;
+    height: 300px;
+    color:white;
+}
+
+
+.head-texto{
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 30%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+.head-texto h1{
+  color:rgb(171, 218, 69);
+}
+
+
+/*botones*/
+.botones{
+  background-color: rgb(245, 245, 245);
+  padding: 30px 80px;
+  color:rgb(52,60,36);
+}
+
+.botones a{
+  text-decoration: none;
+  color:rgb(52,60,36);
+  text-align: center;
+}
+
+.botones .boton {
+  padding: 2px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+  transition: all 0.3s ease-in;
+}
+
+.boton i {
+  font-size: 3.5rem;
+  color: rgb(245,245,245);
+  background-color: rgb(52,60,36);
+  padding: 5px 19px;
+  border-radius: 50%;
+}
+
+.boton i:hover{
+  background-color: rgb(96, 118, 53);
+}
+
+.botones-titulo {
+  font-size: 15px;
+  padding: 20px;
+  font-weight: bold;
+  text-align: center;
+}
+
+/*sección producto*/
+
+.prod-izq{
+  min-height: 250px;
+  font-size: 0.9rem;
+}
+
+.prod-izq .desc-prod:hover{
+  background-color: rgb(230, 230, 230);
+}
+
+
+.prod-der{
+  min-height: 250px;
+  font-size:0.9rem;
+}
+
+.prod-der .desc-prod:hover{
+  background-color: rgb(230, 230, 230);
+}
+
+.desc-prod{
+  background-color: rgb(245,245,245);
+  padding: 10px 20px;
+}
+
+.desc-prod h1{
+  padding: 10px 40px;
+  color:rgb(119, 152, 48);
+  font-size: 1.5rem;
+}
+
+.desc-prod p{
+  padding: 0px 20px 0px 40px;
+  color:rgb(51, 51, 51);
+  font-size: 0.9rem;
+}
+
+.desc-prod ul{
+  padding: 0px 20px 0px 60px;
+  color:rgb(51, 51, 51);
+  font-size: 0.9rem;
+}
+
+.desc-prod .btn{
+  display: block;
+  margin: 0 auto;
+  padding: 2px 20px;
+  font-size: 0.9rem;
+}
+
+
+/*donde esta el estilo del modal*/
+
+.nodal{
+  font-size: 1.1rem;
+  color:rgb(51,51,51);
+}
+
+.nodal-seccion{
+  padding: 30px;
+  text-align: justify;
+}
+
+.nodal-seccion img{ 
+  display: block;
+  margin: auto;
+  height: 300px;
+  text-align: center;
+}
+
+.nodal-seccion ul{
+  padding: 30px;
+}
+/*donde guardo las imagenes de cada div*/
+
+.img-analisis{
+  background-image: url("imagenes/prod_analisis.png");
+}
+
+.img-carto{
+  background-image: url("imagenes/prod_carto.png");
+}
+
+.img-desarrollo{
+  background-image: url("imagenes/prod_devgeo.png");
+}
+
+.img-plan{
+  background-image: url("imagenes/prod_plan.png");
+}
+
+.img-consultor{
+  background-image: url("imagenes/prod_consulgeo.png");
+}
+
+.img-mtro{
+  background-image: url("imagenes/prod_mtrogeo.png");
+}
+
+
+.footer {
+  min-height: 250px;
+  background-color:rgb(52,60,36);
+}
+
+.footer-texto {
+  font-size: 1rem;
+  padding: 10px;
+  margin-bottom: 25px;
+  color:rgb(171, 218, 69);
+}
+
+.iconos-redes-sociales a {
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2px;
+  margin: 10px;
+  border: 2px solid white;
+  border-radius: 50%;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales i {
+  color: white;
+  font-size: 1.5rem;
+  transition: all 0.2s ease-in;
+}
+
+.iconos-redes-sociales a:hover {
+  background-color:rgb(171,218,69);
+  border: 2px solid rgb(96,118,53);
+}
+
+.iconos-redes-sociales a:hover i {
+  color: rgb(52,60,36);
+}
+
+.derechos-de-autor {
+  text-align: center;
+  font-size: 15px;
+  color: #aeaeae;
+  padding: 10px;
+}
+
+
+.bot-tec{
+  text-align: center;
+}
+
+.bot-tec button:hover{
+  color:rgb(255, 245, 204);
+}
+.desexp p{
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 15px;
+  text-align: left;
+}
+/*Responsivo*/
+
+/*head resposnivo*/
+
+@media screen and (max-width: 459px) {
+  .head {
+    height: 400px;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  .head {
+    height: 600px;
+  }
+}
+/*de nuevo media*/
+@media screen and (max-width: 767px) {
+  .navbar-brand {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 990px) {
+  .head-texto {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img-analisis {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img-bdrelacional {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img-bdgeografica {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .img-bdmanejador {
+    display: none;
+  }
+}
+
+
+@media screen and (max-width: 767px) {
+  .desc-prod {
+    border-top: 50px solid rgb(52,60,36); 
+  }
+}
+
+/*responsivo modal*/
+
+
+@media screen and (max-width: 992px) {
+  .nodal-seccion img{ 
+    display: block;
+    margin: auto;
+    height: 200px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .nodal-seccion img{ 
+    display: block;
+    margin: auto;
+    height: 150px;
+    text-align: center;
+  }
+}
+
+@media screen and (max-width: 350px) {
+  .nodal-seccion img{ 
+    display: block;
+    margin: auto;
+    height: 100px;
+    text-align: center;
+  }
+}
